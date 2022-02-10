@@ -70,6 +70,9 @@ example setup:
 html,body{
     height: 100%;
     width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
 }
 
 body {
@@ -80,6 +83,80 @@ body {
 }
 
 .header {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#header-button-boxes {
+    flex: 3;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-buttons-left {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-link-box-left-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.header-link-box-left-right {
+    flex: 1;
+}
+
+.header-link-div {
+    padding: 0px 20px;;
+}
+
+.header-buttons-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-buttons-right {
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-link-box-right-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-link-box-right-left {
+    flex: 1;
+}
+
+#header-link {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header-link:hover {
+    opacity: 50%;
+    transition: all 0.2s;
+}
+
+/* .header {
     width: 100%;
     height: 100px;
     display: flex;
@@ -125,8 +202,9 @@ body {
 #hdr-socmdia-icons {
     padding: 0px 10px;
 }
-
+ */
 .body {
+    flex: 15;
     background-color: blue;
     height: 100%;
     width: 100%;
