@@ -1,0 +1,262 @@
+/*
+Start of index.css
+
+Project 0002 (Website diegoberho.com)
+
+Made by Keegan Grajek
+
+This file is under copyright by diegoberho.com all rights reserved 2022
+
+DELETE THE BELOW COMMENTS WHEN DONE
+
+Rules for this document:
+- classes are for defining individual objects
+    = naming scheme should be .ftr-box-etc
+- ids are for defining groups of objects
+    = naming scheme should be #ftr-etc...-grp
+    = They should have "-grp" at the end of each id
+
+Note: naming schemes should have a mnemonic attatched ot them.
+
+The main groups for this page are:
+- head (hed)
+- everything (all)
+- scrollbar (scrlbr)
+- header (hdr)
+- body (bdy)
+- footer (ftr)
+
+organization should be done by ids (groups)
+after groups organization should be done by classes
+
+comments should describe every set of brackets and are before every initialization of code
+section comments should describe grouped together pieces of code
+ex. /* == section comment == * /
+also, sections should be used very infrequently (used for finding large groups of code)
+
+example setup:
+
+/* == ftr section == * /
+
+/* comments * /
+#ftr-box-grp {
+    ...
+}
+
+/* comments * /
+.ftr-box-1 {
+    ...
+}
+
+/* comments * /
+.ftr-box-2 {
+    ...
+}
+*/
+
+/* == all section == */
+
+/* All attribute (affect everything) */
+
+* {
+    margin:0;
+    padding:0;
+}
+
+/* :root {
+
+} */
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.header {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#header-button-boxes {
+    flex: 3;
+    position: relative;
+}
+
+.header-buttons-left {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-link-box-left-left {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.header-link-box-left-right {
+    height: 100%;
+    flex: 1;
+}
+
+.header-link-div {
+    padding: 0px 20px;
+    background-color: red;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-link-div:hover {
+    background-color: orange;
+}
+
+.header-buttons-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-buttons-right {
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-link-box-right-right {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-link-box-right-left {
+    height: 100%;
+    flex: 1;
+}
+
+#header-link {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s;
+}
+
+#header-link:hover {
+    opacity: 50%;
+    transition: all 0.2s;
+}
+
+.header-link-contact {
+    position: relative;
+}
+
+.header-link-contact:hover {
+    color: red;
+}
+
+.body {
+    flex: 15;
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+}
+
+.body-box-1 {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.body-box-2 {
+    margin: auto;
+}
+
+#body-box-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    border: solid black 3px;
+    padding: 20px 50px;
+    margin: 40px;
+    background-color: blanchedalmond;
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+}
+
+#body-box-buttons:hover {
+    opacity: 70%;
+    border: solid 3px rgba(0, 0, 0, 0);
+    transition: all 0.2s;
+}
+
+.coming-soon-text {
+    font-size: 50px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: blanchedalmond;
+}
+
+/* About Page */
+.body-about {
+    flex: 15;
+    height: 3000px;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.body-about-box-1 {
+    height: 100%;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+.body-about-box-2 {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+
+.body-about-box-3 {
+    height: 100%;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+.body-about-box-4 {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}

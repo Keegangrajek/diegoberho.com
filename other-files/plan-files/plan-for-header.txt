@@ -1,0 +1,47 @@
+Plan for buttons on the website (This is only desktop, I will not plan for mobile yet because I will just use a bunch of media queries to make it work generally)
+
+Buttons that will have hover feature
+- About
+- Contact
+- Instagram
+- TikTok
+- Youtube
+- Cart
+
+Structure I need to work with
+
+<div Header>
+	<div header-buttons-box-left>
+		// Just for alignment of buttons and flexbox container
+		<div header-buttons-flexbox-left>
+			// Height for these should all be 100% this is used as a
+				reference for hover feature
+			<div header-buttons-link-box>
+				// Vertical Alignment will happen with this div
+				<div header-buttons-link-1>
+					<a></a>
+				</div>
+			</div>
+			<div header-buttons-link-box>
+				<div header-buttons-link-2>
+					<a></a>
+				</div>
+			</div>
+			<div header-buttons-link-box>
+				<div header-buttons-link-3>
+					<a></a>
+				</div>
+			</div>
+		</div>
+		<div header-buttons-flexbox-right>
+		</div>
+	</div>
+	// Similar things happen just like above
+	<div header-buttons-box-center>
+	</div>
+	<div header-buttons-box-right>
+	</div>
+</div>
+
+if hovering over the link, allow hovering over specified container. Then show dropdown menu.
+if not hovering over the boxes (link box, and dropdown)
