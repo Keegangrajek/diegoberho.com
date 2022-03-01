@@ -21,35 +21,37 @@
         position: absolute;
         top: 0;
         left: 0;
-        background-color: red;
     }
     .display-box {
+        background-color:rgba(0, 0, 255, 0);
         display: none;
     }
     .stack-top {
-        background-color: blue;
+        box-sizing: border-box;
     }
     .dropdown {
         position: relative;
-        height: 100px;
+        height: 500px;
         width: 100px;
-        background-color: pink;
+        background-color: rgba(255, 192, 203, 0);
         top: 200px;
         left: 0px;
         z-index: 100;
+        border: solid black 1px;
     }
     .display-dropdown {
-        height: 500px;
+        display: auto;
     }
     .display-dropdown-not {
-        height: 0px;
+        display: none;
+
     }
 </style>
 </head>
 <body>
     <div class="container">
         <div class="box" onmouseover="displayOutsideBoxToggle()" onmouseout="displayOutsideBoxToggle()">Hello</div>
-        <div class="box stack-top"><a class="element-link" onmouseover="displayOutsideBoxToggle()" onmouseout="displayOutsideBoxToggle()">Hello</a></div>
+        <div class="box stack-top"><a class="element-link" onmouseover="displayOutsideBoxToggle()" onmouseout="displayOutsideBoxToggle()">Hello</a></div>  
         <div class="dropdown display-dropdown-not" onmouseover="displayOutsideBoxToggle()" onmouseout="displayOutsideBoxToggle()"></div>
     </div>
 </body>

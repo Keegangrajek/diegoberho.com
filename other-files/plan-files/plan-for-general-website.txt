@@ -1,0 +1,11 @@
+colors: global
+- black text NO MATTER WHAT NO WHITE TEXT
+- navbar default WHITE
+- header photo
+- ALL other background elements are default white.
+
+
+Take out cart, uneeded completely.
+Home page buttons a little smaller than what they are right now.
+
+Try to scale out the website to be what is designed on the drawing.

@@ -1,3 +1,5 @@
+const navbarHoverEffects = true;
+
 var element;
 var elementTwo;
 
@@ -7,9 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function displayOutsideBoxToggle() {
-    element[0].classList.toggle("display-box");
-    elementTwo[0].classList.toggle("display-dropdown");
-    elementTwo[0].classList.toggle("display-dropdown-not");
+    if(navbarHoverEffects) {
+        element[0].classList.toggle("display-box");
+        elementTwo[0].classList.toggle("display-dropdown");
+        elementTwo[0].classList.toggle("display-dropdown-not");
+    }
 }
 
 

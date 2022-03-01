@@ -1,29 +1,18 @@
-var showContactContentBoxBoolean;
+const navbarHoverEffects = true;
 
-document.addEventListener('DOMContentLoaded', () => {
-    showContactContentBoxBoolean = false;
+var elementOneGroupContact;
+var elementTwoGroupContact;
+
+document.addEventListener('DOMContentLoaded', () => {  
+    elementOneGroupContact = document.getElementsByClassName("header-link-div-contact");
+    elementTwoGroupContact = document.getElementsByClassName("header-link-contact-dropdown");
 });
 
-function showContactContentBox() {
-    if(showContactContentBoxBoolean == false){
-        console.log("Open");
-        showContactContentBoxBoolean = true;
-        return;
-    } if(showContactContentBoxBoolean == true){
-        console.log("Close");
-        showContactContentBoxBoolean = false;
-        return;
-    } else {
-        console.log("Error Enlisted In showContactContentBox()");
-        return;
+function displayOutsideBoxToggle() {
+    if(navbarHoverEffects){
+        elementOneGroupContact[0].classList.toggle("hover-box-contact-switch-off");
+        elementOneGroupContact[1].classList.toggle("hover-box-contact-switch-off");
+        elementTwoGroupContact[0].classList.toggle("header-link-contact-dropdown-display");
+        elementTwoGroupContact[0].classList.toggle("header-link-contact-dropdown-display-not");
     }
 }
-
-/* function headerLinkContactHoverOn() {
-    document.getElementsByClassName('header-link-contact')[0].style.color = "red"
-};
-
-function headerLinkContactHoverOff() {
-    document.getElementsByClassName('header-link-contact')[0].style.color = "black";
-}
- */
