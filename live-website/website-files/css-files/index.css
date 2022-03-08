@@ -177,10 +177,16 @@ body {
 .header-link-contact-dropdown {
     position: absolute;
     width: 100%;
-    height: 50%;
+    height: fit-content;
     background-color: rgba(255, 255, 255, 0.624);
     backdrop-filter: blur(3px);
     z-index: 100;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0px;
 }
 
 .header-link-contact-dropdown-display {
@@ -189,6 +195,17 @@ body {
 
 .header-link-contact-dropdown-display-not {
     display: none;
+}
+
+#contact-dropdown-content {
+    font-family: monospace;
+    font-size: x-large;
+    margin: 10px;
+    flex: 1;
+}
+
+#contact-dropdown-content-box {
+    flex: 2;
 }
 
 .body {
