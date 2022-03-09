@@ -16,3 +16,11 @@ function displayOutsideBoxToggle() {
         elementTwoGroupContact[0].classList.toggle("header-link-contact-dropdown-display-not");
     }
 }
+
+var element = document.getElementsByClassName('go-back-button');
+element[0].setAttribute('href', document.referrer);
+
+element.onclick = function() {
+    window.history.go(-1);
+    return false;
+}
