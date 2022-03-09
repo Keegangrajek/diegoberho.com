@@ -80,6 +80,7 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .header {
@@ -213,6 +214,7 @@ body {
     background-color: blue;
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 .body-box-1 {
@@ -267,6 +269,7 @@ body {
     height: 3000px;
     overflow-y: scroll;
     width: 100%;
+    overflow: hidden;
 }
 
 .body-about-box-1 {
