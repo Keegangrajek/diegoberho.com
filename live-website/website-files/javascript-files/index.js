@@ -17,6 +17,8 @@ function displayOutsideBoxToggle() {
     }
 }
 
+
+// This doesn't work right now I will try and fix this.
 var element = document.getElementsByClassName('go-back-button');
 element[0].setAttribute('href', document.referrer);
 

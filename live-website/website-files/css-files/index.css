@@ -83,6 +83,28 @@ body {
     overflow: hidden;
 }
 
+.subfolder-page {
+    outline: black 2px solid;
+}
+
+.unclickable-link {
+    cursor:default;
+    outline: black 2px solid;
+}
+
+.unclickable-link:hover{
+    color: black !important;
+}
+
+.unselectable-link {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .header {
     flex: 2;
     display: flex;
@@ -169,6 +191,27 @@ body {
 #header-link:hover {
     color: rgba(0, 0, 0, 0.652);
     transition: all 0.2s;
+}
+
+.header-link-logo {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-link-logo-img {
+    padding-top: 5px;
+    position: absolute;
+    top: 0px;
+    transition: all 0.5s;
+}
+
+.header-link-logo-img:hover {
+    width: 180px;
+    transition: all 0.5s;
 }
 
 .header-link-contact {
@@ -274,7 +317,7 @@ body {
 .body-about-box-1 {
     height: 100%;
     width: 100%;
-    background-image: url(../img-files/img-0495-background-header.JPG);
+    background-image: url(../img-files/img-0495-background-header.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0% 53%;

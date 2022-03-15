@@ -9,3 +9,13 @@ Take out cart, uneeded completely.
 Home page buttons a little smaller than what they are right now.
 
 Try to scale out the website to be what is designed on the drawing.
+
+Links for pages completion list
+- *about.html
+- *coming-soon.html
+- *contact.html
+- *home.html
+- *index.html
+- *shop.html
+- *originals.html
+- *prints.html
