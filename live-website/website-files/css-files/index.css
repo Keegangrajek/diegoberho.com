@@ -73,9 +73,11 @@ html,body{
     margin: 0px;
     padding: 0px;
     text-align: center;
+    text-transform: lowercase;
 }
 
 body {
+    font-family: monospace;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -325,6 +327,13 @@ body {
     overflow: hidden;
 }
 
+.body-about-1 {
+    flex: 15;
+    height: 3000px;
+    overflow-y: scroll;
+    width: 100%;
+}
+
 .body-about-box-1 {
     height: 100%;
     width: 100%;
@@ -340,6 +349,84 @@ body {
     justify-content: center;
     align-items: center;
     justify-items: center;
+}
+
+.body-about-box-10 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.body-about-box-11 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.body-about-text-box {
+    width: 100%;
+    height: 100%;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.body-about-text-box-flex {
+    display: flex;
+    width: 85%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-picture {
+    width: 400px;
+    height: 450px;
+    background-color: black;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.about-text h1 {
+    padding-bottom: 40px;
+}
+
+.about-picture h1 {
+    color: white;
+}
+
+.about-text {
+    width: 50%;
+    height: 100%;
+}
+
+#socials-link {
+    font-size:xx-large;
+    color: black;
+    margin: 10px 50px;
+}
+
+#socials-link:hover {
+    color: rgb(50, 50, 50);
 }
 
 .body-about-box-2 {
