@@ -65,7 +65,31 @@ example setup:
 
 /* :root {
 
+
+
 } */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    position: fixed;
+    z-index: 10;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.70);
+}
 
 html,body{
     height: 100%;
@@ -196,7 +220,7 @@ body {
 }
 
 .header-link-logo {
-    width: 170px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -212,7 +236,7 @@ body {
 }
 
 .header-link-logo-img:hover {
-    width: 180px;
+    width: 250px;
     transition: all 0.5s;
 }
 
@@ -271,6 +295,43 @@ body {
     justify-content: space-around;
     align-items: center;
     justify-items: center;
+    overflow-y:scroll;
+}
+
+.body-box-4 {
+    position: relative;
+    height: 100%;
+    overflow-y:scroll;
+}
+
+.box-body-box-1 h1 {
+    display: flex;
+    padding: 40px;
+    position: relative;
+    font-size: 30px;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-body-box-1 {
+    width: 100%;
+    position: relative;
+}
+
+.box-body-box-2 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-body-box-2 div {
+    height: 200px;
+    width: 200px;
+    border: black solid 3px;
+    margin: 30px;
 }
 
 #body-box-buttons {
