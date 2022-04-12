@@ -19,3 +19,7 @@ Links for pages completion list
 - *shop.html
 - *originals.html
 - *prints.html
+
+goes in next issue:
+There is a problem with the picture selection on originals.html and I don't really know how to fix it, but I have some theories. However, I will save this bug for ver2 because it doesn't stop the functionaltiy of the website unless the user does something a little unexpected. If this happens the user can just refresh the page and fix the issue.
+Also, it switches the other pictures. I think I will have to fix this in version 1. I think it is too muhc of an issue, and on top of that I think that it has something to do with the checking that the image is not on the same picture box. So maybe to fix this I just need to check that and only change the picture on the same box.

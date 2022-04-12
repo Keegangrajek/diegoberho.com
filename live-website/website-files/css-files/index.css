@@ -236,7 +236,7 @@ body {
 }
 
 .header-link-logo-img:hover {
-    width: 250px;
+    width: 200px;
     transition: all 0.5s;
 }
 
@@ -327,24 +327,115 @@ body {
     justify-content: center;
 }
 
-.box-body-box-2 div {
-    height: 200px;
-    width: 200px;
-    border: black solid 3px;
+.bbb-2-box {
+    height: 350px;
+    width: 300px;
     margin: 30px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+/* .bbb-2-box:hover {
+    
+} */
+
+#bbb-2-box-picture {
+    display: flex;
+    margin: 10px 0px;
+    width: 100%;
+    flex: 8;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(218, 218, 218);
+}
+
+#bbb-2-box-photo-selection {
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#bbb-2-box-photo-selection a {
+    margin: 0px 5px;
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+#bbb-2-box-photo-selection a:hover {
+    background-color: #717171;
+}
+
+#bbb-2-box-photo-selection a:active {
+    background-color: #3e3e3e;
+    transition: all 0.0s;
+}
+
+.photo-selection-clicked-button {
+    background-color: #3e3e3e !important;
+}
+
+.picture-0 {
+    background-image: url("../img-files/fake-photos/steve-harvey-1.jpg");
+}
+
+.picture-1 {
+    background-image: url("../img-files/fake-photos/steve-harvey-2.jpg");
+}
+
+.picture-2 {
+    background-image: url("../img-files/fake-photos/steve-harvey-3.jpg");
+}
+
+.picture-3 {
+    background-image: url("../img-files/fake-photos/steve-harvey-4.jpg");
+}
+
+.picture-4 {
+    background-image: url("../img-files/fake-photos/steve-harvey-5.jpg");
+}
+
+.picture-5 {
+    background-image: url("../img-files/fake-photos/steve-harvey-6.jpg");
+}
+
+#bbb-2-box-name {
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#bbb-2-box-price {
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 #body-box-buttons {
-    width: 200px;
+    width: 4em;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     justify-content: space-between;
     font-size: xx-large;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
-    border: solid black 3px;
+    border: solid black 2px;
     padding: 15px 50px;
     margin: 40px;
     background-color: white;
@@ -355,7 +446,7 @@ body {
 
 #body-box-buttons:hover {
     opacity: 70%;
-    border: solid 3px rgba(0, 0, 0, 0.756);
+    border: solid 2px rgba(0, 0, 0, 0.756);
     transition: all 0.2s;
 }
 
@@ -377,6 +468,69 @@ body {
 
 #copy-text:hover {
     color:rgb(46, 46, 46);
+}
+
+.body-box-5 {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    overflow-y:scroll;
+    padding: 0px 100px;
+}
+
+.body-box-5-box {
+    flex: 1;
+    width: 90%;
+    height: 90%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+#bb5b-b {
+    width: 100%;
+    height: 100%;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bb5b-picture {
+    flex: 12;
+    background-color: #bbb;
+}
+
+.bb5b-selection {
+    flex: 2;
+}
+
+.bb5b-blurb {
+    flex: 8;
+    flex-direction: column;
+}
+
+.bb5b-contact {
+    flex: 4;
+    flex-direction: column;
+}
+
+#bb5b-b h1 {
+    padding-bottom: 10px;
+}
+
+.bb5b-b-c {
+    padding: 5px 0px;
 }
 
 /* About Page */
