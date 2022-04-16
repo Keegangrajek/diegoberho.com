@@ -625,7 +625,9 @@ body {
 .about-picture {
     width: 400px;
     height: 450px;
-    background-color: black;
+    background-image: url("https://drive.google.com/uc?export=view&id=1k9Rinpgo1WRNFGIoQUb5BqGWiATi1TR7");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 30px;
     align-items: center;
     justify-content: center;
