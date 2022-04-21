@@ -45,24 +45,19 @@ function removeOldPicture(num1, num2) {
 }
 
 function purchasePaintingImageSelection(num1, num2){
-    console.log("purchasePainting num1 = " + num1 + " num2 = " + num2);
     var elm = document.getElementsByClassName("bb5b-b-" + num1);
-    /* for (let index = 0; index < elm[0].childNodes.length; index++) {
-        const element = elm[0].childNodes[index];
-        if(element.classList.contains("photo-selection-clicked-button")) {
-            element.classList.remove("photo-selection-clicked-button");
-            console.log("removed class");
-        }
-        console.log("one time");
-    } */
+    var elm2 = document.getElementsByClassName("a-link-b-"+num1+ "" +num2);
+    var elm3 = document.getElementsByClassName("bb5b-picture-"+num1);
     for(index = 0; index < elm[0].children.length; index++){
         document.getElementsByClassName("a-link-b-"+num1+ "" +index)[0].classList.remove("photo-selection-clicked-button");
-        console.log("removed");
     }
-    console.log(elm[0].children.length+"");
-    var elm2 = document.getElementsByClassName("a-link-b-"+num1+ "" +num2);
+    for(index = 0; index < 6; index++){
+        elm3[0].classList.remove("ps-picture-"+num1+""+index);
+        console.log("happened");
+    }
     elm2[0].classList.add("photo-selection-clicked-button");
-    console.log("finished");
+    elm3[0].classList.add("ps-picture-"+num1+""+num2);
+    console.log("ps-picture-"+num1+""+num2);
     return;
 }
 
