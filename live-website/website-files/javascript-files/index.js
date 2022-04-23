@@ -1,4 +1,4 @@
-const navbarHoverEffects = true;
+const navbarHoverEffects = false;
 
 var elementOneGroupContact;
 var elementTwoGroupContact;
@@ -17,33 +17,6 @@ function displayOutsideBoxToggle() {
     }
 }
 
-var previousNum1 = "default";
-var previousNum2 = "default";
-
-function switchPicture(num1, num2) {
-    document.getElementsByClassName("picture-box")[num1].classList.toggle("picture-"+num2);
-    document.getElementsByClassName("a-link-" + num1 + "" + num2 )[0].classList.add("photo-selection-clicked-button");
-    console.log("num1: ("+ num1 +")");
-    console.log("num2: ("+ num2 +")");
-    console.log("num1 and num2:" + num1 + "" + num2);
-    removeOldPicture(previousNum1, previousNum2);
-    previousNum1 = num1;
-    previousNum2 = num2;
-}
-
-function removeOldPicture(num1, num2) {
-    if (previousNum1 == "default"){
-        document.getElementsByClassName("picture-box")[0].classList.toggle("picture-0");
-    } else {
-        document.getElementsByClassName("picture-box")[num1].classList.toggle("picture-"+num2);
-    } if (previousNum2 == "default") {
-        document.getElementsByClassName("a-link-00")[0].classList.remove("photo-selection-clicked-button");
-    } else {
-        document.getElementsByClassName("a-link-"+num1+num2)[0].classList.remove("photo-selection-clicked-button");
-    }
-    
-}
-
 function purchasePaintingImageSelection(num1, num2){
     var elm = document.getElementsByClassName("bb5b-b-" + num1);
     var elm2 = document.getElementsByClassName("a-link-b-"+num1+ "" +num2);
@@ -51,18 +24,26 @@ function purchasePaintingImageSelection(num1, num2){
     for(index = 0; index < elm[0].children.length; index++){
         document.getElementsByClassName("a-link-b-"+num1+ "" +index)[0].classList.remove("photo-selection-clicked-button");
     }
-    for(index = 0; index < 6; index++){
+    for(index = 0; index < elm[0].children.length; index++){
         elm3[0].classList.remove("ps-picture-"+num1+""+index);
-        console.log("happened");
     }
     elm2[0].classList.add("photo-selection-clicked-button");
     elm3[0].classList.add("ps-picture-"+num1+""+num2);
-    console.log("ps-picture-"+num1+""+num2);
     return;
 }
 
 function originalsPaintingImageSelection(num1, num2){
-    console.log("originalsPainting num1 = " + num1 + " num2 = " + num2);
+    var elm = document.getElementsByClassName("o-bb5b-" + num1);
+    var elm2 = document.getElementsByClassName("a-link-"+num1+ "" +num2);
+    var elm3 = document.getElementsByClassName("o-picture-"+num1);
+    for(index = 0; index < elm[0].children.length; index++){
+        document.getElementsByClassName("a-link-"+num1+ "" +index)[0].classList.remove("photo-selection-clicked-button");
+    }
+    for(index = 0; index < elm[0].children.length; index++){
+        elm3[0].classList.remove("o-picture-"+num1+""+index);
+    }
+    elm2[0].classList.add("photo-selection-clicked-button");
+    elm3[0].classList.add("o-picture-"+num1+""+num2);
     return;
 }
 
