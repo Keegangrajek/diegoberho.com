@@ -109,6 +109,42 @@ body {
     overflow: hidden;
 }
 
+/* == End of All Section == */
+
+/* == Start of Media Query Section == */
+
+@media only screen and (max-width: 950px) {
+    .header-link-box-left-left .header-link-div {
+        display: none;
+    }
+
+    .header-link-box-right-right .header-link-div {
+        display: none;
+    }
+
+    .header-link-div-2 {
+        padding: 0px 20px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    .header-link-div-2 {
+        display: none;
+    }
+}
+
+/* == End of Media Query Section == */
+
+.fa-bars {
+    font-size: xx-large;
+    cursor: pointer;
+}
+
 .subfolder-page {
     outline: black 2px solid;
 }

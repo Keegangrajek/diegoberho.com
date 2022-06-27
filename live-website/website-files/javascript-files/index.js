@@ -47,6 +47,21 @@ function originalsPaintingImageSelection(num1, num2){
     return;
 }
 
+var mobileNavbarState = "false"; // Open = true; Closed = false;
+
+function toggleMobileNavbar() {
+    var elm = document.getElementsByClassName("");
+    var elm2 = document.getElementsByClassName(""); 
+    if (mobileNavbarState == false) {
+        
+    } else if (mobileNavbarState == true) {
+
+    } else {
+        console.log("uh-oh");
+    }
+
+}
+
 /* // This doesn't work right now I will try and fix this.
 var element = document.getElementsByClassName('go-back-button');
 element[0].setAttribute('href', document.referrer);
