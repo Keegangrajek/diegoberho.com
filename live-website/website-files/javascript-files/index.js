@@ -2,10 +2,12 @@ const navbarHoverEffects = false;
 
 var elementOneGroupContact;
 var elementTwoGroupContact;
+var mobileNavbarState; // Open = true; Closed = false;
 
 document.addEventListener('DOMContentLoaded', () => {  
     elementOneGroupContact = document.getElementsByClassName("header-link-div-contact");
     elementTwoGroupContact = document.getElementsByClassName("header-link-contact-dropdown");
+    mobileNavbarState = false; // Open = true; Closed = false;
 });
 
 function displayOutsideBoxToggle() {
@@ -47,19 +49,34 @@ function originalsPaintingImageSelection(num1, num2){
     return;
 }
 
-var mobileNavbarState = "false"; // Open = true; Closed = false;
-
 function toggleMobileNavbar() {
-    var elm = document.getElementsByClassName("");
-    var elm2 = document.getElementsByClassName(""); 
-    if (mobileNavbarState == false) {
-        
-    } else if (mobileNavbarState == true) {
-
-    } else {
-        console.log("uh-oh");
+    var elm = document.getElementsByClassName("header-link-mobilemenu-dropdown");
+    try {
+        if (!mobileNavbarState) {
+            console.log("uh-oh2");
+            console.log(mobileNavbarState);
+            elm[0].classList.toggle("header-link-mobilemenu-dropdown-display-not");
+            elm[0].classList.toggle("header-link-mobilemen-dropdown-display-yes");
+            document.getElementById('span-1').className = 'mobile-menu-bars-span-animation-1';
+            document.getElementById('span-2').className = 'mobile-menu-bars-span-animation-2';
+            document.getElementById('span-3').className = 'mobile-menu-bars-span-animation-3';
+            mobileNavbarState = true;
+            return;
+        } 
+        if (mobileNavbarState) {
+            console.log("uh-oh1");
+            console.log(mobileNavbarState);
+            elm[0].classList.toggle("header-link-mobilemenu-dropdown-display-not");
+            elm[0].classList.toggle("header-link-mobilemenu-dropdown-display-yes");
+            document.getElementById('span-1').className = 'mobile-menu-bars-span-animation-1-not';
+            document.getElementById('span-2').className = 'mobile-menu-bars-span-animation-2-not';
+            document.getElementById('span-3').className = 'mobile-menu-bars-span-animation-3-not';
+            mobileNavbarState = false;
+            return;
+        }
+    } catch {
+        console.log("error");
     }
-
 }
 
 /* // This doesn't work right now I will try and fix this.
