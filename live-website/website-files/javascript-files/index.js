@@ -51,6 +51,8 @@ function originalsPaintingImageSelection(num1, num2){
 
 function toggleMobileNavbar() {
     var elm = document.getElementsByClassName("header-link-mobilemenu-dropdown");
+    var box = document.getElementsByClassName('body-box-5');
+    var box2 = document.getElementsByClassName('body-box-1');
     try {
         if (!mobileNavbarState) {
             console.log("uh-oh2");
@@ -61,6 +63,12 @@ function toggleMobileNavbar() {
             document.getElementById('span-2').className = 'mobile-menu-bars-span-animation-2';
             document.getElementById('span-3').className = 'mobile-menu-bars-span-animation-3';
             mobileNavbarState = true;
+            try {
+                box[0].style.setProperty('display', 'none');
+            } catch { console.log("box")}
+            try { 
+                box2[0].style.setProperty('display', 'none');
+            } catch { console.log("box2")}
             return;
         } 
         if (mobileNavbarState) {
@@ -72,6 +80,12 @@ function toggleMobileNavbar() {
             document.getElementById('span-2').className = 'mobile-menu-bars-span-animation-2-not';
             document.getElementById('span-3').className = 'mobile-menu-bars-span-animation-3-not';
             mobileNavbarState = false;
+            try {
+                box[0].style.setProperty('display', 'flex');
+            } catch { console.log("box")}
+            try { 
+                box2[0].style.setProperty('display', 'flex');
+            } catch { console.log("box2")}
             return;
         }
     } catch {
