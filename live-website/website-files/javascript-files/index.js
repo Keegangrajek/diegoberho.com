@@ -53,6 +53,8 @@ function toggleMobileNavbar() {
     var elm = document.getElementsByClassName("header-link-mobilemenu-dropdown");
     var box = document.getElementsByClassName('body-box-5');
     var box2 = document.getElementsByClassName('body-box-1');
+    var box3 = document.getElementsByClassName('body-about-box-1');
+    var box4 = document.getElementsByClassName('body-about-box-10');
     try {
         if (!mobileNavbarState) {
             console.log("uh-oh2");
@@ -66,9 +68,18 @@ function toggleMobileNavbar() {
             try {
                 box[0].style.setProperty('display', 'none');
             } catch { console.log("box")}
-            try { 
+            try {
                 box2[0].style.setProperty('display', 'none');
             } catch { console.log("box2")}
+            try {
+                box3[0].style.setProperty('display', 'none');
+            } catch { console.log("box3")}
+            try {
+                box4[0].style.setProperty('display', 'none');
+            } catch { console.log("box4")}
+            try {
+                box4[1].style.setProperty('display', 'none');
+            } catch { console.log("box4sub")}
             return;
         } 
         if (mobileNavbarState) {
@@ -86,6 +97,15 @@ function toggleMobileNavbar() {
             try { 
                 box2[0].style.setProperty('display', 'flex');
             } catch { console.log("box2")}
+            try {
+                box3[0].style.setProperty('display', 'flex');
+            } catch { console.log("box3")}
+            try {
+                box4[0].style.setProperty('display', 'flex');
+            } catch { console.log("box4")}
+            try {
+                box4[1].style.setProperty('display', 'flex');
+            } catch { console.log("box4sub")}
             return;
         }
     } catch {

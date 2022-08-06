@@ -141,6 +141,13 @@ body {
     .body-box-5-box {
         min-height: 300px !important;
     }
+    .body-about-text-box-flex {
+        flex-direction: column !important;
+        margin-top: 500px !important;
+    }
+    #about-elements {
+        width: 100% !important;
+    }
 }
 
 @media only screen and (min-width: 950px) {
