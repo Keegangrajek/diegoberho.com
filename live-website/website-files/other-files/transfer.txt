@@ -1,0 +1,209 @@
+trapped.in.the.past
+a-link-b-0
+a-link-00
+tears.of.a.lost.dream
+a-link-b-10
+a-link-10
+metamorphasis
+a-link-b-20
+a-link-20
+lost.painting
+a-link-b-30
+a-link-30
+vines.of.thought
+a-link-b-40
+a-link-40
+homage
+a-link-b-50
+a-link-50
+
+What it needs to be
+tears.of.a.lost.dream
+a-link-b-0
+a-link-00
+trapped.in.the.past
+a-link-b-10
+a-link-10
+vines.of.thought
+a-link-b-20
+a-link-20
+homage
+a-link-b-30
+a-link-30
+metamorphasis
+a-link-b-40
+a-link-40
+lost.painting
+a-link-b-50
+a-link-50
+
+
+/**/
+.o-picture-00 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1uoNGymR2SHZ8UvvlJaRPEHFhpCfuSS31");
+}
+.o-picture-01 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1lEkH05T2dmv_K03_YRFwoH5s4EYVUxvK");
+}
+.o-picture-02 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1COUw8GbsgOOh7KbL9qil6HjQ45DPEQAK");
+}
+.o-picture-03 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1Cv-JIwi1XuT7qahmP0NpobCkApCa2BUh");
+}
+.o-picture-04 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1ECqucLK_NVfM6Cms9XhF-IcnRm5V51j5");
+}
+/**/
+.o-picture-10 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1IaMgkJrgi2YAmdrsl5EN9jnyyAbGaab_");
+}
+.o-picture-11 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1Ehf-KOog9SsdMN3MlEk2Gg5FhAU08y_s");
+}
+.o-picture-12 {
+    background-image: url("https://drive.google.com/uc?export=view&id=16Bmo1pM7vEGEm__72fxiWu7SwF08iU95");
+}
+.o-picture-13 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1WNJc7vldWLNZKxhcAMCV1U4YYhg6cguR");
+}
+.o-picture-14 {
+    background-image: url("https://drive.google.com/uc?export=view&id=11G6SioB6c_NY5hU72EXp81y-hJR0zaXL");
+}
+/**/
+.o-picture-20 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1pK2so-8cRuI26hb2Je6SRznw76nQ-nt6");
+}
+.o-picture-21 {
+    background-image: url("https://drive.google.com/uc?export=view&id=14tk0E2iVK5KrlTe3Cz_6vduOc1FHN4rS");
+}
+.o-picture-22 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1eb0ezlXH_9PaaX0bKet41L8ytJqgTpWm");
+}
+.o-picture-23 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1EuzjY3yhsLgfCq9mFhu5v_BYqu5yyHMI");
+}
+/**/
+.o-picture-30 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1Yaemrm1gzCX_XCAVsZnZZAWaMjKxtsEp");
+}
+.o-picture-31 {
+    background-image: url("https://drive.google.com/uc?export=view&id=110iDZrexX3TZJuS8YCSJrLOUDKhp3rge");
+}
+.o-picture-32 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1NikC97GvR5qPAwI9mO4cjSWvIv01zOqC");
+}
+/**/
+.o-picture-40 {
+    background-image: url("https://drive.google.com/uc?export=view&id=17_oLgy_jX8KY9RIQcJti7dOe0SaxU5QY");
+}
+.o-picture-41 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1RxnsBL6-KbBSXQjwc9fMPYKs13vRjPUv");
+}
+.o-picture-42 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1xqG9G2VmHLm23Dxq9j6TzHoHvSATW69G");
+}
+.o-picture-43 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1H9emn9JoUBihaSOfJOGb9oiPGJjNuSMO");
+}
+/**/
+.o-picture-50 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1KIm91L2UujrdYE8zHWLxVPTZ3X2aLvXd");
+}
+.o-picture-51 {
+    background-image: url("https://drive.google.com/uc?export=view&id=15fjhTTQbuHMgF3xaKHQUQm1VnrXFmsCu");
+}
+.o-picture-52 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1JiObwxLcJUCfKqDbfJ7vLQRVQYrqkDon");
+}
+.o-picture-53 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1A28xIMUP6wUC0eekuNXig1j7ZlZ4O_Vs");
+}
+.o-picture-54 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1gxdHMFbzTN0i_oDHPCYIjW7wDCagUyB0");
+}
+
+
+.ps-picture-00 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1uoNGymR2SHZ8UvvlJaRPEHFhpCfuSS31");
+}
+.ps-picture-01 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1lEkH05T2dmv_K03_YRFwoH5s4EYVUxvK");
+}
+.ps-picture-02 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1COUw8GbsgOOh7KbL9qil6HjQ45DPEQAK");
+}
+.ps-picture-03 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1Cv-JIwi1XuT7qahmP0NpobCkApCa2BUh");
+}
+.ps-picture-04 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1ECqucLK_NVfM6Cms9XhF-IcnRm5V51j5");
+}
+/**/
+.ps-picture-10 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1IaMgkJrgi2YAmdrsl5EN9jnyyAbGaab_");
+}
+.ps-picture-11 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1Ehf-KOog9SsdMN3MlEk2Gg5FhAU08y_s");
+}
+.ps-picture-12 {
+    background-image: url("https://drive.google.com/uc?export=view&id=16Bmo1pM7vEGEm__72fxiWu7SwF08iU95");
+}
+.ps-picture-13 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1WNJc7vldWLNZKxhcAMCV1U4YYhg6cguR");
+}
+.ps-picture-14 {
+    background-image: url("https://drive.google.com/uc?export=view&id=11G6SioB6c_NY5hU72EXp81y-hJR0zaXL");
+}
+/**/
+.ps-picture-20 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1pK2so-8cRuI26hb2Je6SRznw76nQ-nt6");
+}
+.ps-picture-21 {
+    background-image: url("https://drive.google.com/uc?export=view&id=14tk0E2iVK5KrlTe3Cz_6vduOc1FHN4rS");
+}
+.ps-picture-22 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1eb0ezlXH_9PaaX0bKet41L8ytJqgTpWm");
+}
+.ps-picture-23 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1EuzjY3yhsLgfCq9mFhu5v_BYqu5yyHMI");
+}
+/**/
+.ps-picture-30 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1Yaemrm1gzCX_XCAVsZnZZAWaMjKxtsEp");
+}
+.ps-picture-31 {
+    background-image: url("https://drive.google.com/uc?export=view&id=110iDZrexX3TZJuS8YCSJrLOUDKhp3rge");
+}
+.ps-picture-32 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1NikC97GvR5qPAwI9mO4cjSWvIv01zOqC");
+}
+/**/
+.ps-picture-40 {
+    background-image: url("https://drive.google.com/uc?export=view&id=17_oLgy_jX8KY9RIQcJti7dOe0SaxU5QY");
+}
+.ps-picture-41 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1RxnsBL6-KbBSXQjwc9fMPYKs13vRjPUv");
+}
+.ps-picture-42 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1xqG9G2VmHLm23Dxq9j6TzHoHvSATW69G");
+}
+.ps-picture-43 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1H9emn9JoUBihaSOfJOGb9oiPGJjNuSMO");
+}
+/**/
+.ps-picture-50 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1KIm91L2UujrdYE8zHWLxVPTZ3X2aLvXd");
+}
+.ps-picture-51 {
+    background-image: url("https://drive.google.com/uc?export=view&id=15fjhTTQbuHMgF3xaKHQUQm1VnrXFmsCu");
+}
+.ps-picture-52 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1JiObwxLcJUCfKqDbfJ7vLQRVQYrqkDon");
+}
+.ps-picture-53 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1A28xIMUP6wUC0eekuNXig1j7ZlZ4O_Vs");
+}
+.ps-picture-54 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1gxdHMFbzTN0i_oDHPCYIjW7wDCagUyB0");
+}
