@@ -137,6 +137,7 @@ body {
     .body-about {
         height: 10000px !important;
         overflow: scroll !important;
+        padding: 0px !important;
     }
     .body-box-5-box {
         min-height: 300px !important;
@@ -162,6 +163,13 @@ body {
     }
     .body-text-smaller {
         font-size: 6vw !important;
+    }
+    .contact-social-media {
+        font-size: 6vw !important;
+    }
+    
+    .contact-social-media h1 {
+        font-size: 9vw !important;
     }
 }
 
@@ -347,6 +355,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.bb5b-b-c a {
+    text-decoration: none;
+    color: black;
+}
+
+.bb5b-b-c a:hover {
+    opacity: 75%;
 }
 
 .mobile-menu-bars-div {
@@ -652,6 +669,35 @@ body {
 .o-picture-52 {
     background-image: url("https://drive.google.com/uc?export=view&id=1NikC97GvR5qPAwI9mO4cjSWvIv01zOqC");
 }
+/**/
+.o-picture-60 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1xPerqGzlsDvXcHA0cSKc8DRNWqNhAcN8");
+}
+.o-picture-61 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1ZaDoSpsDbGEMerOUCKkSvXIz4u_opaEi");
+}
+.o-picture-62 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1heWc7zQutYAFykFAVlSaipTzOs9HgBfb");
+}
+.o-picture-63 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1ctIVoKs2ibGtQSTiHv2zRLug0Txmcr07");
+}
+/**/
+.o-picture-70 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1melk1YCObXP-EtDad17Kf7Xh21ZkJuRP");
+}
+.o-picture-71 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1Bp2nfoRwUydKCyiRu9QNWFDbcCCseeLD");
+}
+.o-picture-72 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1RiHB945buVDDUW1pmounqacxSq3MBy3m");
+}
+.o-picture-73 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1mtd0tQAQZV-Rh5f3ry10tWtW4yQL1vbJ");
+}
+.o-picture-74 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1BjwdBjvWmHLHLVtmToOb8tAZQOXMFHjW");
+}
 
 /* ///////////////////////////////// */
 
@@ -737,6 +783,39 @@ body {
 }
 .ps-picture-52 {
     background-image: url("https://drive.google.com/uc?export=view&id=1NikC97GvR5qPAwI9mO4cjSWvIv01zOqC");
+}
+
+.ps-picture-60 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1xPerqGzlsDvXcHA0cSKc8DRNWqNhAcN8");
+}
+.ps-picture-61 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1ZaDoSpsDbGEMerOUCKkSvXIz4u_opaEi");
+}
+.ps-picture-62 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1heWc7zQutYAFykFAVlSaipTzOs9HgBfb");
+}
+.ps-picture-63 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1ctIVoKs2ibGtQSTiHv2zRLug0Txmcr07");
+}
+/**/
+.ps-picture-70 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1melk1YCObXP-EtDad17Kf7Xh21ZkJuRP");
+}
+.ps-picture-71 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1Bp2nfoRwUydKCyiRu9QNWFDbcCCseeLD");
+}
+.ps-picture-72 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1RiHB945buVDDUW1pmounqacxSq3MBy3m");
+}
+.ps-picture-73 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1mtd0tQAQZV-Rh5f3ry10tWtW4yQL1vbJ");
+}
+.ps-picture-74 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1BjwdBjvWmHLHLVtmToOb8tAZQOXMFHjW");
+}
+
+.body-about-originals-page {
+    padding: 0px !important;
 }
 
 #bbb-2-box-name {
@@ -933,7 +1012,7 @@ body {
 }
 
 .body-about-box-10 {
-    height: 100%;
+    height: 150%;
     width: 100%;
     background-color: white;
     position: relative;
@@ -1002,12 +1081,27 @@ body {
 .about-text {
     width: 50%;
     height: 100%;
+    padding-bottom: 50px;
+}
+
+.contact-social-media {
+    padding-top: 40px;
+    width: 100% !important;
+}
+
+.contact-social-media h1 {
+    font-size: 40px;
+}
+
+.body-box-2-contact {
+    justify-content: center;
+    align-items: center;
 }
 
 #socials-link {
     font-size:xx-large;
     color: black;
-    margin: 10px 50px;
+    padding: 10px 20px;
 }
 
 #socials-link:hover {

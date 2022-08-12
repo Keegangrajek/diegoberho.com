@@ -1,0 +1,227 @@
+<!-- 
+Start of index.html 
+
+Project 0002 (Website diegoberho.com) 
+
+Made by Keegan Grajek
+
+This file is under copyright by diegoberho.com all rights reserved 2022
+
+DELETE WHEN DONE WITH DOCUMENT ONLY FOR KEEGAN'S EYES
+Rules for document:
+class should be at the front of each element
+id should be next
+
+Class is used as a unique identifier following the format of class="hed-metatag-charset"
+id should be used as a group identifier following the format of id="hed-metatag-grp"
+id needs to have "-grp" at the end of the naming scheme
+
+comments must be on every line before the targeted element to describe it's function
+section comments must separate other sections and describe the purpose of the targeted section
+< -- == hed section == -- >
+
+-->
+<!DOCTYPE html>
+<!-- Start of html tag -->
+<html>
+    <head>
+        <!-- meta tag to establish charset -->
+        <meta class="mta-charset" charset="UTF-8">
+        <!-- meta tag to establish key-words for search engines to use -->
+        <meta class="mta-keywords" name="keywords" content="">
+        <!-- Auto refresh of page (on client side) every 30 seconds -->
+        <meta class="mta-autorefresh" http-equiv="refresh" content="30">
+        <!-- Establishing the media viewport (how the website is being viewed) -->
+        <meta class="mta-viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Defining the author of the website -->
+        <meta class="mta-author" name="author" content="Keegan Grajek">
+        <!-- Description to be used by search engine-->
+        <meta class="mta-description" name="description" content="Diego Berho Art">
+        <!-- Title of Website -->
+        <title class="ttl-elm">Diego Berho Art</title>
+        <!-- Default opening of links (in a new tab) if not specified in attribute -->
+        <!-- <base class="bse-elm" href="index.html" target="_blank"> -->
+        <!-- Icon file for tab of website -->
+        <link class="link-ico" rel="shortcut icon" href="" type="image/x-icon">
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Space+Mono">
+        <!-- links to the font google api to get material icons -->
+        <link rel="stylesheet" href="">
+        <!-- Links to external documents used in this document -->
+        <link class="lnk-css" href="../website-files/css-files/index.css" rel="stylesheet" type="text/css"/>
+        <!-- link to cloudfare stylesheet for social media icons -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        <!-- Script tag to link to the js file -->
+        <script class="lnk-javascript" src="../website-files/javascript-files/index.js" type="text/javascript"></script>
+        <!-- Script for linking the icons -->
+        <script src="https://kit.fontawesome.com/8993ea0ee9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-buttons-left" id="header-button-boxes">
+                <!-- In order to align these item to the left I needed to use some wierd flexbox stuff -->
+                <div class="header-link-box-left-left">
+                    <!-- Had to use a div for testing, will figure out if I can remove this later -->
+                    <div class="header-link-div"><a target="_self" href="../shop.html" class="header-link-shop subfolder-page" id="header-link">shop</a></div>
+                    <div class="header-link-div"><a target="_self" href="../about.html" class="header-link-about" id="header-link">about</a></div>
+                    <div class="header-link-div header-link-div-contact hover-box-contact-switch-off" id="header-link" onmouseover="displayOutsideBoxToggle()" onmouseout="displayOutsideBoxToggle()">
+                        <a target="_self" href="../contact.html" class="header-link-contact unselectable-link" id="header-link">contact</a>
+                    </div>
+                    <div class="header-link-div header-link-div-contact">
+                        <a target="_self" href="../contact.html" class="header-link-contact unselectable-link" id="header-link" onmouseover="displayOutsideBoxToggle()" onmouseout="displayOutsideBoxToggle()">contact</a> 
+                    </div>
+                    <div class="header-link-div-2">
+                        <a class="mobile-menu-bars" id="header-link">
+                            <div class="mobile-menu-bars-div" onclick="toggleMobileNavbar()">
+                                <span id="span-1"></span>
+                                <span id="span-2"></span>
+                                <span id="span-3"></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="header-link-box-left-right"></div>
+                <!-- end of flexbox stuff -->
+            </div>
+            <div class="header-buttons-center" id="header-button-boxes">
+                <div class="header-link-div"><a target="_self" href="../home.html" class="header-link-logo" id="header-link"><img class="header-link-logo-img" src="../website-files/img-files/logo.png" alt="logo" width="180"></img></a></div>
+            </div>
+            <div class="header-buttons-right" id="header-button-boxes">
+                <div class="header-link-box-right-left"></div>
+                <div class="header-link-box-right-right">
+                    <div class="header-link-div"><a target="_blank" href="https://instagram.com/diegoberho?utm_medium=copy_link " class="header-link-instagram" id="header-link"><i class="fa-brands fa-instagram"></i></a></div>
+                    <div class="header-link-div"><a target="_blank" href="https://vm.tiktok.com/TTPdBF57KP/ " class="header-link-tiktok" id="header-link"><i class="fa-brands fa-tiktok"></i></a></div>
+                    <div class="header-link-div"><a target="_blank" href="https://youtube.com/channel/UCAQtIGddOxFJTQRKPjs5ayQ" class="header-link-youtube" id="header-link"><i class="fa-brands fa-youtube"></i></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="body-about body-about-originals-page">
+            <div class="header-link-contact-dropdown header-link-contact-dropdown-display-not" onmouseover="displayOutsideBoxToggle()" onmouseout="displayOutsideBoxToggle()">
+                <div class="contact-dropdown-topbox"id="contact-dropdown-content-box"></div>
+                <div class="contact-dropdown-head" id="contact-dropdown-content">Contact Me</div>
+                <div class="contact-dropdown-email" id="contact-dropdown-content">contact@diegoberho.com</div>
+                <div class="contact-dropdown-bottombox"id="contact-dropdown-content-box"></div>
+            </div>
+            <div class="header-link-mobilemenu-dropdown header-link-mobilemenu-dropdown-display-not">
+                <div class="mobilemenu-flexbox">
+                    <div class="mobilemenu-dropdown-padding-box" id="mobilemenu-dropdown-content"></div>
+                    <div class="mobilemenu-dropdown-shop" id="mobilemenu-dropdown-content"><a target="_self" href="../shop.html" class="header-link-shop unselectable-link" id="mobilemenu-link">shop</a></div>
+                    <div class="mobilemenu-dropdown-about" id="mobilemenu-dropdown-content"><a target="_self" href="../about.html" class="header-link-about unselectable-link" id="mobilemenu-link">about</a></div>
+                    <div class="mobilemenu-dropdown-contact" id="mobilemenu-dropdown-content"><a target="_self" href="../contact.html" class="header-link-contact unselectable-link" id="mobilemenu-link">contact</a></div>
+                    <div class="mobilemenu-dropdown-socialmedia" id="mobilemenu-dropdown-content-box">
+                        <div class="mobilemenu-dropdown-socialmedia-instagram"><a target="_blank" href="https://instagram.com/diegoberho?utm_medium=copy_link " class="header-link-instagram" id="header-link"><i class="fa-brands fa-instagram"></i></a></div>
+                        <div class="mobilemenu-dropdown-socialmedia-ticktock"><a target="_blank" href="https://vm.tiktok.com/TTPdBF57KP/ " class="header-link-tiktok" id="header-link"><i class="fa-brands fa-tiktok"></i></a></div>
+                        <div class="mobilemenu-dropdown-socialmedia-youtube"><a target="_blank" href="https://youtube.com/channel/UCAQtIGddOxFJTQRKPjs5ayQ" class="header-link-youtube" id="header-link"><i class="fa-brands fa-youtube"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-link-about-dropdown"></div>
+            <div class="header-link-instagram-dropdown"></div>
+            <div class="header-link-tiktok-dropdown"></div>
+            <div class="header-link-youtube-dropdown"></div>
+            <div class="header-link-cart-dropdown"></div>
+            <div class="body-box-4">
+                <div class="box-body-box-1">
+                    <h1>Originals</h1>
+                </div>
+                <div class="box-body-box-2">
+                    <div class="bbb-2-box">
+                        <a target="_self" href="./originals/luz.y.fuerza.html" class="picture-box o-picture-6 o-picture-60" id="bbb-2-box-picture"></a>
+                        <div class="o-bb5b-6" id="bbb-2-box-photo-selection">
+                            <a class="a-link-60 photo-selection-clicked-button" onclick="originalsPaintingImageSelection(6,0)"></a>
+                            <a class="a-link-61" onclick="originalsPaintingImageSelection(6,1)"></a>
+                            <a class="a-link-62" onclick="originalsPaintingImageSelection(6,2)"></a>
+                            <a class="a-link-62" onclick="originalsPaintingImageSelection(6,3)"></a>
+                        </div>
+                        <div id="bbb-2-box-name">luz.y.fuerza</div>
+                        <div id="bbb-2-box-price">$400</div>
+                    </div>
+                    <div class="bbb-2-box">
+                        <a target="_self" href="./originals/inner.war.html" class="picture-box o-picture-7 o-picture-70" id="bbb-2-box-picture"></a>
+                        <div class="o-bb5b-7" id="bbb-2-box-photo-selection">
+                            <a class="a-link-70 photo-selection-clicked-button" onclick="originalsPaintingImageSelection(7,0)"></a>
+                            <a class="a-link-71" onclick="originalsPaintingImageSelection(7,1)"></a>
+                            <a class="a-link-72" onclick="originalsPaintingImageSelection(7,2)"></a>
+                            <a class="a-link-72" onclick="originalsPaintingImageSelection(7,3)"></a>
+                            <a class="a-link-72" onclick="originalsPaintingImageSelection(7,4)"></a>
+                        </div>
+                        <div id="bbb-2-box-name">inner.war</div>
+                        <div id="bbb-2-box-price">$400</div>
+                    </div>
+                    <div class="bbb-2-box">
+                        <a target="_self" href="./originals/tears.of.a.lost.dream.html" class="picture-box o-picture-0 o-picture-00" id="bbb-2-box-picture"></a>
+                        <div class="o-bb5b-0" id="bbb-2-box-photo-selection">
+                            <a class="a-link-00 photo-selection-clicked-button" onclick="originalsPaintingImageSelection(0, 0)"></a>
+                            <a class="a-link-01" onclick="originalsPaintingImageSelection(0, 1)"></a>
+                            <a class="a-link-02" onclick="originalsPaintingImageSelection(0, 2)"></a>
+                            <a class="a-link-03" onclick="originalsPaintingImageSelection(0, 3)"></a>
+                            <a class="a-link-04" onclick="originalsPaintingImageSelection(0, 4)"></a>
+                        </div>
+                        <div id="bbb-2-box-name">tears.of.a.lost.dream</div>
+                        <div id="bbb-2-box-price">$420</div>
+                        <div id="bbb-2-box-price">sold</div>
+                    </div>
+                    <div class="bbb-2-box">
+                        <a target="_self" href="./originals/trapped.in.the.past.html"  class="picture-box o-picture-1 o-picture-10" id="bbb-2-box-picture"></a>
+                        <div class="o-bb5b-1" id="bbb-2-box-photo-selection">
+                            <a class="a-link-10 photo-selection-clicked-button" onclick="originalsPaintingImageSelection(1,0)"></a>
+                            <a class="a-link-11" onclick="originalsPaintingImageSelection(1,1)"></a>
+                            <a class="a-link-12" onclick="originalsPaintingImageSelection(1,2)"></a>
+                            <a class="a-link-13" onclick="originalsPaintingImageSelection(1,3)"></a>
+                            <a class="a-link-14" onclick="originalsPaintingImageSelection(1,4)"></a>
+                        </div>
+                        <div id="bbb-2-box-name">trapped.in.the.past</div>
+                        <div id="bbb-2-box-price">$400</div>
+                    </div>
+                    <div class="bbb-2-box">
+                        <a target="_self" href="./originals/vines.of.thought.html"  class="picture-box o-picture-2 o-picture-20" id="bbb-2-box-picture"></a>
+                        <div class="o-bb5b-2" id="bbb-2-box-photo-selection">
+                            <a class="a-link-20 photo-selection-clicked-button" onclick="originalsPaintingImageSelection(2,0)"></a>
+                            <a class="a-link-21" onclick="originalsPaintingImageSelection(2,1)"></a>
+                            <a class="a-link-22" onclick="originalsPaintingImageSelection(2,2)"></a>
+                            <a class="a-link-23" onclick="originalsPaintingImageSelection(2,3)"></a>
+                        </div>
+                        <div id="bbb-2-box-name">vines.of.thought</div>
+                        <div id="bbb-2-box-price">$500</div>
+                    </div>
+                    <div class="bbb-2-box">
+                        <a target="_self" href="./originals/homage.html" class="picture-box o-picture-3 o-picture-30" id="bbb-2-box-picture"></a>
+                        <div class="o-bb5b-3" id="bbb-2-box-photo-selection">
+                            <a class="a-link-30 photo-selection-clicked-button" onclick="originalsPaintingImageSelection(3,0)"></a>
+                            <a class="a-link-31" onclick="originalsPaintingImageSelection(3,1)"></a>
+                            <a class="a-link-32" onclick="originalsPaintingImageSelection(3,2)"></a>
+                            <a class="a-link-33" onclick="originalsPaintingImageSelection(3,3)"></a>
+                            <a class="a-link-34" onclick="originalsPaintingImageSelection(3,4)"></a>
+
+                        </div>
+                        <div id="bbb-2-box-name">homage</div>
+                        <div id="bbb-2-box-price">$500</div>
+                        <div id="bbb-2-box-price">sold</div>
+                    </div>
+                    <div class="bbb-2-box">
+                        <a target="_self" href="./originals/metamorphosis.html" class="picture-box o-picture-4 o-picture-40" id="bbb-2-box-picture"></a>
+                        <div class="o-bb5b-4" id="bbb-2-box-photo-selection">
+                            <a class="a-link-40 photo-selection-clicked-button" onclick="originalsPaintingImageSelection(4,0)"></a>
+                            <a class="a-link-41" onclick="originalsPaintingImageSelection(4,1)"></a>
+                            <a class="a-link-42" onclick="originalsPaintingImageSelection(4,2)"></a>
+                            <a class="a-link-43" onclick="originalsPaintingImageSelection(4,3)"></a>
+                        </div>
+                        <div id="bbb-2-box-name">metamorphosis</div>
+                        <div id="bbb-2-box-price">$300</div>
+                        <div id="bbb-2-box-price">sold</div>
+                    </div>
+                    <div class="bbb-2-box">
+                        <a target="_self" href="./originals/lost.html" class="picture-box o-picture-5 o-picture-50" id="bbb-2-box-picture"></a>
+                        <div class="o-bb5b-5" id="bbb-2-box-photo-selection">
+                            <a class="a-link-50 photo-selection-clicked-button" onclick="originalsPaintingImageSelection(5,0)"></a>
+                            <a class="a-link-51" onclick="originalsPaintingImageSelection(5,1)"></a>
+                            <a class="a-link-52" onclick="originalsPaintingImageSelection(5,2)"></a>
+                        </div>
+                        <div id="bbb-2-box-name">lost</div>
+                        <div id="bbb-2-box-price">$500</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
