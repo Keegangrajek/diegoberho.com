@@ -699,6 +699,11 @@ body {
     background-image: url("https://drive.google.com/uc?export=view&id=1BjwdBjvWmHLHLVtmToOb8tAZQOXMFHjW");
 }
 
+.hello {
+    color:black;
+    background-color: black;
+}
+
 /* STUDIES */
 .s-picture-00 {
     background-image: url("https://drive.google.com/uc?export=view&id=1vHjbDlqIsOX0rLWYAnQzkz14p9rCpqTV");
