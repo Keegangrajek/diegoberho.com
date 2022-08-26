@@ -699,9 +699,52 @@ body {
     background-image: url("https://drive.google.com/uc?export=view&id=1BjwdBjvWmHLHLVtmToOb8tAZQOXMFHjW");
 }
 
-.hello {
-    color:black;
-    background-color: black;
+.o-picture-80 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1fS-07eN7bjKDLPmKDsGFq5ry7UqZc9Lt");
+}
+.o-picture-81 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1mFXShESt-7mfWn5NWwYIRddyrxhw2qTN");
+}
+.o-picture-82 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1MF9OKLcfruudSSdSOxJrC0KnfetAHt86");
+}
+.o-picture-83 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1muDbCsHiciYwAMd6eOh-_0lBw72FyUbu");
+}
+.o-picture-84 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1d3ETb7UtbDIAvJ1XsC1kdgf_vGfwSaOQ");
+}
+
+.o-picture-90 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1cmFov5G_tu0waMYGfX_i7ss9na1TY0Hj");
+}
+.o-picture-91 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1eXsOxvhOKfkYbPwRfyQZFAKc8k0ErFYR");
+}
+.o-picture-92 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1IM4ZtPtLbvaJLcYI5844VgOPfVg7JjDr");
+}
+.o-picture-93 {
+    background-image: url("https://drive.google.com/uc?export=view&id=13KEOJxbCsYV8ijL8FxJYKUFYi5VKsUi4");
+}
+.o-picture-94 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1dzWjkZbkwDjq3IWqkb69_nPo7BUAXZs9");
+}
+
+.o1-picture-00 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1gN3R_fObOQoQaPtHrMPhxB1nAVcGDrdY");
+}
+.o1-picture-01 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1TTDYAu8bGr1M_6bUxEupgik1bMBX8s-P");
+}
+.o1-picture-02 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1iKv5AzUt6jazVEIhIKsdWGUYjP3v3WM_");
+}
+.o1-picture-03 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1uoTMD6OHyd_c8qi9E04foY3sCUWX7skO");
+}
+.o1-picture-04 {
+    background-image: url("https://drive.google.com/uc?export=view&id=13P5dy95jIaH1UWn64QjicGJ7zx83bj7Q");
 }
 
 /* STUDIES */
@@ -852,6 +895,56 @@ body {
 .ps-picture-74 {
     background-image: url("https://drive.google.com/uc?export=view&id=1BjwdBjvWmHLHLVtmToOb8tAZQOXMFHjW");
 }
+/**/
+.ps-picture-80 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1fS-07eN7bjKDLPmKDsGFq5ry7UqZc9Lt");
+}
+.ps-picture-81 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1mFXShESt-7mfWn5NWwYIRddyrxhw2qTN");
+}
+.ps-picture-82 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1MF9OKLcfruudSSdSOxJrC0KnfetAHt86");
+}
+.ps-picture-83 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1muDbCsHiciYwAMd6eOh-_0lBw72FyUbu");
+}
+.ps-picture-84 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1d3ETb7UtbDIAvJ1XsC1kdgf_vGfwSaOQ");
+}
+/**/
+.ps-picture-90 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1cmFov5G_tu0waMYGfX_i7ss9na1TY0Hj");
+}
+.ps-picture-91 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1eXsOxvhOKfkYbPwRfyQZFAKc8k0ErFYR");
+}
+.ps-picture-92 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1IM4ZtPtLbvaJLcYI5844VgOPfVg7JjDr");
+}
+.ps-picture-93 {
+    background-image: url("https://drive.google.com/uc?export=view&id=13KEOJxbCsYV8ijL8FxJYKUFYi5VKsUi4");
+}
+.ps-picture-94 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1dzWjkZbkwDjq3IWqkb69_nPo7BUAXZs9");
+}
+
+/**/
+.ps1-picture-00 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1gN3R_fObOQoQaPtHrMPhxB1nAVcGDrdY");
+}
+.ps1-picture-01 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1TTDYAu8bGr1M_6bUxEupgik1bMBX8s-P");
+}
+.ps1-picture-02 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1iKv5AzUt6jazVEIhIKsdWGUYjP3v3WM_");
+}
+.ps1-picture-03 {
+    background-image: url("https://drive.google.com/uc?export=view&id=1uoTMD6OHyd_c8qi9E04foY3sCUWX7skO");
+}
+.ps1-picture-04 {
+    background-image: url("https://drive.google.com/uc?export=view&id=13P5dy95jIaH1UWn64QjicGJ7zx83bj7Q");
+}
+
 /* STUDIES */
 .pss-picture-00 {
     background-image: url("https://drive.google.com/uc?export=view&id=1vHjbDlqIsOX0rLWYAnQzkz14p9rCpqTV");
@@ -886,6 +979,7 @@ body {
 .pss-picture-70 {
     background-image: url("https://drive.google.com/uc?export=view&id=1eDLVmTC6P63RFg-j9TAasAArtwt_geLa"); 
 }
+
 .body-about-originals-page {
     padding: 0px !important;
 }
