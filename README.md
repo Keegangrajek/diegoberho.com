@@ -62,11 +62,11 @@ The website should also be able to sell the art by itself, and also be easy mani
 Will edit this at a later time after restructuring the website...
 
 #### Known Issues:
-[Link to Portion of Repo]()
+[Link to Portion of Repo](https://github.com/Keegangrajek/keegangrajek.github.io/issues)
 #### Proposed Ideas:
-[Link to Portion of Repo]()
+[Link to Portion of Repo](https://github.com/Keegangrajek/keegangrajek.github.io/pulls)
 #### Versions:
-[Link to Portion of Repo]()
+[Link to Portion of Repo](https://github.com/Keegangrajek/keegangrajek.github.io/commits/main)
 <!-- ROADMAP (End) -->
 
 <!-- CONTRIBUTING -->
