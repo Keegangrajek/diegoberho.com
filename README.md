@@ -1,7 +1,6 @@
 <!-- Title -->
 # Project 0002 (Website)
-## diegoberhoart.com (Link)
-https://diegoberhoart.com
+## diegoberho.com [Link](https://diegoberho.com)
 <!-- Title (End) -->
 
 # diego's website
@@ -84,8 +83,8 @@ Version 2.0, January 2004
 <!-- CONTACT -->
 ### Contact
 <!-- CONTACT (End) -->
-Keegangrajek@gmail.com
-DiegoBerhoArt@gmail.com
+* Keegangrajek@gmail.com
+* DiegoBerho.Art@gmail.com
 
 <!-- ACKNOWLEDGEMENTS -->
 ### Acknowledgements
