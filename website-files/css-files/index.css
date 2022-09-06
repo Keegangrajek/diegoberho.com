@@ -1250,6 +1250,12 @@ body {
     padding-bottom: 50px;
 }
 
+.copy-email {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
 .contact-social-media {
     padding-top: 40px;
     width: 100% !important;
