@@ -1,5 +1,5 @@
 <!-- Title -->
-# Project 000-002 (ps4-slim-wall-mount)
+# Project 000-002 (website)
 ## diegoberho.com [Link](https://diegoberho.com)
 <!-- Title (End) -->
 
