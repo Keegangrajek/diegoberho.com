@@ -1,10 +1,10 @@
 <!-- Title -->
-# Project 0002 (Website)
+# Project 000-002 (ps4-slim-wall-mount)
 ## diegoberho.com [Link](https://diegoberho.com)
 <!-- Title (End) -->
 
 # diego's website
-just a repo to log progression of website development and to help figure out issues/bugs
+project 000-002 just a repo to log progression of website development and to help figure out issues/bugs
 
 ## Most Recent Update Tab.
 Finals updates for version 1 of the website. Going to host off of github pages now because it's free.
